@@ -39,6 +39,7 @@ let configAppId = program.appId || process.env.PARSE_DASHBOARD_APP_ID;
 let configAppName = program.appName || process.env.PARSE_DASHBOARD_APP_NAME;
 let configUserId = program.userId || process.env.PARSE_DASHBOARD_USER_ID;
 let configUserPassword = program.userPassword || process.env.PARSE_DASHBOARD_USER_PASSWORD;
+console.log(configUserPassword);
 if (!program.config && !process.env.PARSE_DASHBOARD_CONFIG) {
   if (configServerURL && configMasterKey && configAppId) {
     configFromCLI = {
