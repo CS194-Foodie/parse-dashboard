@@ -1,5 +1,31 @@
 ## Parse Dashboard Changelog
 
+### 1.0.13
+
+* Fix log retrieval, thanks to [Jérémy Thiry](https://github.com/poltib)
+* Improved GeoPoint editor and ESC button in editors, thanks to [Sam Schooler](https://github.com/samschooler)
+* Add push status page to dashboard, thanks to [Jeremy Pease](https://github.com/JeremyPlease)
+
+### 1.0.12
+
+* Fix minor style issues
+* Add pointer permissions editor
+* Allow cancellation of edits in data browser using ESC key, thanks to [Manuel](https://github.com/mtrezza)
+* Show error messages in the console when your app's icons can't be found, thanks to [Saif Al-Dilaimi](https://github.com/deada92)
+
+### 1.0.11
+
+* Add the ability to specify SSL cert and key, thanks to [Cory Imdieke](https://github.com/Vortec4800)
+* Trust proxy when enabling --allowInsecureHTTP, thanks to [Andrew Chen](https://github.com/yongjhih)
+* Fix App index when apps have an apostrophe in the name
+* Fix display of prod/dev flag
+* Support for Node 6
+
+### 1.0.10
+
+* Add the ability to specify icons for your app, thanks to [Natan Rolnik](https://github.com/natanrolnik)
+* Fix sending push with JSON data
+
 ### 1.0.9
 
 * Add the ability to mount the dashboard express app on a custom mount path, thanks to [hpello](https://github.com/hpello) with bugfixes from [mamaso](https://github.com/mamaso)
